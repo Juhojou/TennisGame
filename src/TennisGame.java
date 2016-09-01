@@ -11,7 +11,7 @@ public class TennisGame {
 	private static String player2ScoreString;
 	 
 	public static String getScore(){
-		score = "Player1 " + player1Score() + " - " + player2Score() + " Player2";
+		score = "Player1  " + player1Score() + " - " + player2Score() + "  Player2";
 		return score;
 	}
 	
@@ -60,10 +60,10 @@ public class TennisGame {
 		else if (player2Score == 3){
 			player2ScoreString = scoreList.get(3);
 		}
-		else if (player2Score == player1Score && player1Score >= 3 && player2Score >= 3){
+		else if (player2Score == player1Score && player2Score >= 3 && player2Score >= 3){
 			player2ScoreString = scoreList.get(4);
 		}
-		else if (player2Score > player1Score && player1Score >= 3 && player2Score >= 3){
+		else if (player2Score > player1Score && player2Score >= 3 && player2Score >= 3){
 			player2ScoreString = scoreList.get(5);
 		}
 		return player2ScoreString;	
