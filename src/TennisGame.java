@@ -6,7 +6,7 @@ public class TennisGame {
 	private static String score;
 	private static int player1Score=0;
 	private static int player2Score=0;
-	private static List<String> scoreList = asList("love", "15", "30", "45", "deuce", "advantage");
+	private static List<String> scoreList = asList("love", "15", "30", "40", "deuce", "advantage");
 	private static String player1ScoreString;
 	private static String player2ScoreString;
 	 
